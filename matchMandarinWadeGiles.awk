@@ -1,3 +1,5 @@
+#!/bin/awk -f
+
 BEGIN {
 	# The higher level structure is delimited by a colon but the colon may appear multiple times
 	FS = ":";
